@@ -23,6 +23,14 @@ void BubbleSort(int a[],int n)
 		if(flag==0) break;
 	}
 }
+//Printing the Sorted array
+void Print_array(int a[],int n)
+{
+	int i;
+	for(i=0;i<n;i++){
+		printf("%d ",a[i]);
+	}
+}
 int main(){
 	int n;
 	//Reading the no.of elements in the array
